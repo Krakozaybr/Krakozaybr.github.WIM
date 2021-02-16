@@ -104,35 +104,35 @@ function select(n){
     case 'triangle':
     put(1, 0, 1)
     currentMode = 'triangle'
-    document.getElementById('shapeImg').src = 'images/triangle.png'
+    document.getElementById('shapeImg').src = 'https://drive.google.com/file/d/1j71vAUjgc1GM4iuQWHiZsetDNmiC3ToW/view?usp=sharing'
     break; case 'square':
     put(1)
     currentMode = 'square'
-    document.getElementById('shapeImg').src = 'images/square.png'
+    document.getElementById('shapeImg').src = 'https://drive.google.com/file/d/1CddYfFBAEiL_ccXh_CU42xVNi1pI5dxu/view?usp=sharing'
     break; case 'rectangle':
     put(1, 1)
     currentMode = 'rectangle'
-    document.getElementById('shapeImg').src = 'images/rectangle.png'
+    document.getElementById('shapeImg').src = 'https://drive.google.com/file/d/1hv2Q_q3lA6SiTrYQ_8bkRI06Ir5vGyIv/view?usp=sharing'
     break; case 'parallelogram':
     put(1, 0, 1)
     currentMode = 'parallelogram'
-    document.getElementById('shapeImg').src = 'images/parallelogram.png'
+    document.getElementById('shapeImg').src = 'https://drive.google.com/file/d/1Qxg4dAKfRSgT2IfJ6k_4a39yoi6jAFcx/view?usp=sharing'
     break; case 'rhombus':
     put(1, 0, 1)
     currentMode = 'rhombus'
-    document.getElementById('shapeImg').src = 'images/rhombus.png'
+    document.getElementById('shapeImg').src = 'https://drive.google.com/file/d/1c4wIQwR-ZEBXkByzXTBXnmS3-PV-pWij/view?usp=sharing'
     break; case 'trapeze':
     put(1, 1, 1)
     currentMode = 'trapeze'
-    document.getElementById('shapeImg').src = 'images/trapeze.png'
+    document.getElementById('shapeImg').src = 'https://drive.google.com/file/d/13glPzs5re5V2jaZi0n1gIDAnQDegtPmZ/view?usp=sharing'
     break; case 'deltoid':
     put(1, 1, 0, 1)
     currentMode = 'deltoid'
-    document.getElementById('shapeImg').src = 'images/deltoid.png'
+    document.getElementById('shapeImg').src = 'https://drive.google.com/file/d/1s9HeFPj_S5EKJj22cWxxajP4y9wRLnQq/view?usp=sharing'
     break; case 'circle':
     put(0, 0, 0, 1)
     currentMode = 'circle'
-    document.getElementById('shapeImg').src = 'images/circle.png'
+    document.getElementById('shapeImg').src = 'https://drive.google.com/file/d/1_J2554dlwUH4KZasVc1BEZfSt3BkeKdX/view?usp=sharing'
   }
 }
 let aInput = "<input id = 'a' placeholder = 'a'>";
