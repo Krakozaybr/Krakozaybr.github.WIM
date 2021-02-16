@@ -1,0 +1,17 @@
+.selectShape, .itemShape{
+  border-radius: 2vh;
+  text-align: center;
+  background-color: DimGrey;
+  color: white;
+  border: 5px double black;
+  margin: 2vh;
+  justify-content: flex-start;
+  width: 30%;
+}
+#areaContent{
+  display: flex;
+}
+#shapeImgCon{
+  display: flex;
+  justify-content: center;
+}
