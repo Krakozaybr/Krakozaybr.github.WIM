@@ -28,7 +28,7 @@ function addView (n){
       $('.content').empty().append(code[1])
       $('.content').children().addClass('animate__animated animate__backInDown')
 
-      $('select').click(function(){select($('select').val())})
+      $('select').change(function(){select($('select').val())})
     }, 500)
   } else if (n.text() === $('#root').text() && lastBtn.text() !== n.text()){
     lastBtn = n;
