@@ -5,7 +5,6 @@ function setStandartBtnsStyles (){
   }
 }
 const screenWidth = window.screen.width
-const screenHeight = window.screen.height
 function adaptation(){
   if(screenWidth < 892){
     $('.inputs').css({'align-items': 'center'})
