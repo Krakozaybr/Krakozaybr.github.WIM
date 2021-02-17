@@ -11,7 +11,7 @@ function quFrac(){
     $('.quFractions').empty()
     quIsFrac = false
   }else {
-    $('.quFractions').append("<input id = 'fra' placeholder = 'Делитель a'><input id = 'frb' placeholder = 'Делитель b'><input id = 'frc' placeholder = 'Делитель c'>")
+    $('.quFractions').append("<div class = 'col-md'><input id = 'fra' placeholder = 'Делитель a'></div><div class = 'col-md'><input id = 'frb' placeholder = 'Делитель b'></div><div class = 'col-md'><input id = 'frc' placeholder = 'Делитель c'></div>")
     quIsFrac = true
   }
 }
