@@ -4,12 +4,6 @@ function setStandartBtnsStyles (){
     last.addClass('menu-btn')
   }
 }
-const screenWidth = window.screen.width
-function adaptation(){
-  if(screenWidth < 892){
-    $('.inputs').css({'align-items': 'center'})
-  }
-}
 let last;
 $('.menu-btn').click(function(){
   setStandartBtnsStyles()
@@ -26,7 +20,6 @@ function addView (n){
     setTimeout(function(){
       $('.content').empty().append(code[0])
       $('.content').children().addClass('animate__animated animate__backInDown')
-      adaptation()
     }, 500)
   } else if (n.text() === $('#square').text() && lastBtn.text() !== n.text()){
     lastBtn = n;
@@ -34,7 +27,6 @@ function addView (n){
     setTimeout(function(){
       $('.content').empty().append(code[1])
       $('.content').children().addClass('animate__animated animate__backInDown')
-      adaptation()
       $('select').click(function(){select($('select').val())})
     }, 500)
   } else if (n.text() === $('#root').text() && lastBtn.text() !== n.text()){
@@ -43,7 +35,6 @@ function addView (n){
     setTimeout(function(){
       $('.content').empty().append(code[2])
       $('.content').children().addClass('animate__animated animate__backInDown')
-      adaptation()
     }, 500)
   } else if (n.text() === $('#combinations').text() && lastBtn.text() !== n.text()){
     lastBtn = n;
@@ -51,7 +42,6 @@ function addView (n){
     setTimeout(function(){
       $('.content').empty().append(code[3])
       $('.content').children().addClass('animate__animated animate__backInDown')
-      adaptation()
     }, 500)
   } else if (n.text() === $('#perimeter').text() && lastBtn.text() !== n.text()){
     lastBtn = n;
@@ -59,7 +49,6 @@ function addView (n){
     setTimeout(function(){
       $('.content').empty().append(code[4])
       $('.content').children().addClass('animate__animated animate__backInDown')
-      adaptation()
     }, 500)
   } else if (n.text() === $('#bill').text() && lastBtn.text() !== n.text()){
     lastBtn = n;
@@ -67,7 +56,6 @@ function addView (n){
     setTimeout(function(){
       $('.content').empty().append(code[5])
       $('.content').children().addClass('animate__animated animate__backInDown')
-      adaptation()
     }, 500)
   } else if (n.text() === $('#about').text() && lastBtn.text() !== n.text()){
     lastBtn = n;
@@ -75,7 +63,6 @@ function addView (n){
     setTimeout(function(){
       $('.content').empty().append(code[6])
       $('.content').children().addClass('animate__animated animate__backInDown')
-      adaptation()
     }, 500)
   } else if (n.text() === $('#starter').text() && lastBtn.text() !== n.text()){
     lastBtn = n;
@@ -83,7 +70,6 @@ function addView (n){
     setTimeout(function(){
       $('.content').empty().append(code[7])
       $('.content').children().addClass('animate__animated animate__backInDown')
-      adaptation()
     }, 500)
   }
 }
