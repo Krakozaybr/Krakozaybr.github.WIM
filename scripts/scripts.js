@@ -203,3 +203,4 @@ $(document).ready(function(){
   $('#starter').removeClass('menu-btn')
   addView($('#starter'))
 })
+// Made by me
