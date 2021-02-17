@@ -10,6 +10,10 @@ body, html{
   background-size: 100%;
   overflow-x: hidden;
 }
+img{
+  height: 25%;
+  width: 25%;
+}
 .title-container{
   background: linear-gradient(to top, DimGrey 0%, white);
   height: 12vh;
