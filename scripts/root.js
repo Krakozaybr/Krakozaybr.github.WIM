@@ -1,4 +1,4 @@
-let frac = "<div class = 'col-md'><input id = 'aF' placeholder = 'Делитель а'></div><div class = 'col-md'><input id = 'nF' placeholder = 'Делитель n'></div>"
+let frac = "<div class = 'col-lg'><input id = 'aF' placeholder = 'Делитель а'></div><div class = 'col-lg'><input id = 'nF' placeholder = 'Делитель n'></div>"
 let hasFrac = false
 function rootFrac(){
   if(hasFrac){

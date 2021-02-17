@@ -135,7 +135,7 @@ function select(n){
     document.getElementById('shapeImg').src = '../images/circle.png'
   }
 }
-let aInput = "<div class = 'col-md'><input id = 'a' placeholder = 'a'></div>";
-let bInput = "<div class = 'col-md'><input id = 'b' placeholder = 'b'></div>";
-let hInput = "<div class = 'col-md'><input id = 'h' placeholder = 'h'></div>";
-let rInput = "<div class = 'col-md'><input id = 'r' placeholder = 'r'></div>";
+let aInput = "<div class = 'col-lg'><input id = 'a' placeholder = 'a'></div>";
+let bInput = "<div class = 'col-lg'><input id = 'b' placeholder = 'b'></div>";
+let hInput = "<div class = 'col-lg'><input id = 'h' placeholder = 'h'></div>";
+let rInput = "<div class = 'col-lg'><input id = 'r' placeholder = 'r'></div>";
