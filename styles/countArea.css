@@ -6,7 +6,6 @@
   border: 5px double black;
   margin: 2vh;
   justify-content: flex-start;
-  width: 30%;
 }
 #areaContent{
   display: flex;
