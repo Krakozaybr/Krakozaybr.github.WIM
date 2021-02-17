@@ -103,7 +103,7 @@ code[0] = "<div class = 'content-title'>"
           +"<div class = 'inBtns'>"
             +"<button class = 'inBtn' onClick = 'quSolve()'>Решить</button>"
             +"<button class = 'inBtn' onClick = 'quClear()'>Очистить</button>"
-            +"<button class = 'inBtn' onClick = 'quFrac()'>Дробь?</button>
+            +"<button class = 'inBtn' onClick = 'quFrac()'>Дробь?</button>"
           +"</div>"
 code[1] = "<div class = 'content-title'>"
             +"<h2>Площадь геометрических объектов</h2>"
