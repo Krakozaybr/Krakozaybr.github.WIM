@@ -75,7 +75,7 @@ function addView (n){
       $('.content').children().addClass('animate__animated animate__backInDown')
     }, 500)
   }
-  $(document).scrollTop(100)
+  $(document).scrollDown(100)
 }
 let code = []
 code[0] = "<div class = 'content-title'>"
