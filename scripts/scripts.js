@@ -1,10 +1,12 @@
+const screenWidth = window.screen.width
+const screenHeight = window.screen.height
 function setStandartBtnsStyles (){
   if (last !== undefined){
     last.removeClass('active')
     last.addClass('menu-btn')
   }
 }
-let last;
+let last
 $('.menu-btn').click(function(){
   setStandartBtnsStyles()
   last = $(this)
@@ -73,6 +75,7 @@ function addView (n){
       $('.content').children().addClass('animate__animated animate__backInDown')
     }, 500)
   }
+  $(document).scrollTop(100)
 }
 let code = []
 code[0] = "<div class = 'content-title'>"
