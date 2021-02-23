@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang = 'en' dir = 'ltr'>
+  <head>
+    <meta charset = 'utf-8'>
+    <link rel = 'stylesheet' href = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css'>
+    <link rel = 'stylesheet' href = 'style.css'>
+    <title>Site</title>
+  </head>
+  <body>
+    <div class = 'container-fluid'>
+      <div class = 'container dark'>
+        <div id = 'dark'></div>
+        <div class = 'container-fluid left-title dark'>
+          <h1 class = 'gold'>The Crossroads</h1>
+        </div>
+        <div class = 'row'>
+          <div class = 'col-md-6'>
+            <div class = 'text-container'>
+              <div>
+                <h4 class = 'gold' style = 'text-align: center'>Salvation! For everybody!</h4>
+              </div>
+              <p class = 'text-dark gold'>Our agency of light wizards offers you salvation! You have hard situation in life? Your neighbours never switch off their drill? Phone us! We have salvation for everybody!</p>
+              <button class = 'light-button gold'>$10 Give nine dollars</button>
+              <button class = 'light-button gold'>$200 Give moral support</button>
+              <button class = 'light-button gold'>$200,000 Change your neighbors</button>
+              <button class = 'light-button gold'>$5,000,000 Return your soul</button>
+            </div>
+          </div>
+          <div class = 'col-md-6'>
+            <div class = 'ad'>
+              <a id = 'ad'>
+                <div class = 'title1'>
+                  <h4 class = 'gold'>I`m looking for a dark lord</h4>
+                </div>
+                <div class = 'text-and-photo'>
+                  <div class = 'img'>
+                    <img src = '../Crossroads/images/cliric.jpg' class = 'gold' width = '100%'>
+                  </div>
+                  <p class = 'light-photo-text gold'>Urgent! I need to make a feat! Pay anyone dark lord $100,000 for dramatic death. The cost of the resurrection is on me.</p>
+                </div>
+              </a>
+            </div>
+            <div class = 'light-recruiting'>
+              <div class = 'title2 gold'>
+                <h4 class = 'gold'>Become a follower of<br><span class = 'majestic-light gold'>The Majestic Light</span></h4>
+              </div>
+              <p class = 'text-dark gold'>Are you feeling that you must serve The Majestic Light? Press button below!</p>
+              <button class = 'serve gold' id = 'serveLight'>Serve The Majestic Light!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = 'container light'>
+        <div id = 'light'></div>
+        <div class = 'container-fluid right-title light'>
+          <h1 class = 'black'>Of The Worlds</h1>
+        </div>
+        <div class = 'row'>
+          <div class = 'col-md-6'>
+            <div class = 'ad'>
+              <a id = 'ad'>
+                <div class = 'title1-dark'>
+                  <h4 class = 'black'>Souls for sale</h4>
+                </div>
+                <div class = 'text-and-photo'>
+                  <p class = 'light-photo-text black text-light'>Do you need extra souls for work? Our company can give you ones! In our assortment you can find any type of souls! Click here!</p>
+                  <div class = 'img-dark'>
+                    <img src = '../Crossroads/images/demonPhoto.png' class = 'black' width = '100%'>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class = 'light-recruiting'>
+              <div class = 'title2-dark black'>
+                <h4 class = 'black text-light'>Become a follower of<br><span class = 'majestic-light black'>The Majestic Darkness</span></h4>
+              </div>
+              <p class = 'text-light black text-light'>Dark lords are summoning you! Press button below!</p>
+              <button class = 'serve black' id = 'serveDark'>Serve The Majestic Darkness!</button>
+            </div>
+          </div>
+          <div class = 'col-md-6'>
+            <div class = 'text-container'>
+              <div class = 'title2-dark'>
+                <h4 class = 'black' style = 'text-align: center'>Exchange of soul for wish</h4>
+              </div>
+              <p class = 'text-light black'>We, demons can do for getting your soul anything! Choice what suits you. After our deal you will have 20 years of life</p>
+              <button class = 'dark-button black'>Give $3,000,000</button>
+              <button class = 'dark-button black'>Make you a lord of country</button>
+              <button class = 'dark-button black'>Destroy a medium city</button>
+              <button class = 'dark-button black'>Make a mini-apocalypse</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class = 'modal' id = 'lightModal'>
+      <div class = 'modal-dialog modal-dialog-centered'>
+        <div class = 'modal-content'>
+          <div class ='modal-header'>
+            <h2>Payment</h2>
+          </div>
+          <div class ='modal-body'>
+            <div class = 'modal-text'>
+              <p id = 'obj'></p>
+              <p id = 'cost'></p>
+            </div>
+            <div class = 'modal-input'>
+              <input placeholder = 'Your galactic id' id = 'galacticId'></input>
+              <button id = 'accept'>Accept</button>
+            </div>
+          </div>
+          <div class = 'modal-footer'>
+            <button class = 'btn btn-danger' id = 'closeLightModal' width = '100' height = '100'>Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class = 'modal' id = 'error'>
+      <div class = 'modal-dialog modal-dialog-centered'>
+        <div class = 'modal-content'>
+          <div class ='modal-header'>
+            <h2>Error</h2>
+          </div>
+          <div class ='modal-body'>
+            Error: ไม่ถูกต้องกาแลกติกบนเครือข่าย
+          </div>
+          <div class = 'modal-footer'>
+            <button class = 'btn btn-danger' id = 'closeError' width = '100' height = '100'>Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class = 'modal' id = 'serve'>
+      <div class = 'modal-dialog modal-dialog-centered'>
+        <div class = 'modal-content'>
+          <div class ='modal-header'>
+            <h2>To take the oath</h2>
+          </div>
+          <div class = 'modal-body' style = 'display: block'>
+            <p id = 'senior'></p>
+            <p>Vassal: you</p>
+            <form>
+              <p><input type = 'radio' name = 'gender' value = 'male'>M
+                <input type = 'radio' name = 'gender' value = 'female'>F</p>
+            </form>
+            <button class = 'submit'>Submit</button>
+          </div>
+          <div class = 'modal-footer'>
+            <button id = 'closeServe' class = 'btn btn-danger'>Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src = 'https://code.jquery.com/jquery-2.1.4.min.js'></script>
+    <script src = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js'></script>
+    <script src = 'scripts.js'></script>
+  </body>
+</html>

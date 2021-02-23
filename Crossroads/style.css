@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+html, body{
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 530px;
+  background-color: grey;
+  overflow-x: hidden;
+}
+#dark, #light{
+  position: absolute;
+  top: 0px;
+  margin: 0;
+  width: 50vw;
+  height: 100%;
+  min-width: 350px
+}
+#dark{
+  background-color: rgba(255, 255, 255, 0);
+  left: 0px;
+}
+#light{
+  background-color: rgba(0, 0, 0, 0);
+  right: 0px;
+}
+img{
+  opacity: 0.9;
+}
+a{
+  cursor: pointer;
+}
+.container-fluid{
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  width: 50vw;
+  min-width: 350px;
+  margin: 0
+}
+.col-md{
+  display: flex;
+  height: 100%;
+}
+.dark{
+  background: linear-gradient(to right, white 90%, DimGrey)
+}
+.light{
+  background: linear-gradient(to left, black 90%, DimGrey)
+}
+.light-button, .dark-button, #accept, #serveLight, #serveDark, .submit{
+  margin: 2% 5%;
+  border-radius: 10px;
+  transition: .15s ease-in-out;
+  width: 90%;
+  height: 8vh;
+  font-size: 2.5vh;
+}
+.light-button, #accept, #serveLight, .submit{
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+}
+.dark-button, #serveDark{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+.dark-button:hover, #serveDark:hover{
+  box-shadow: 0 0 4vh 0 rgba(255, 255, 255, 1) inset, 0 0 10px 4px white;
+}
+.light-button:hover, #accept:hover, #serveLight:hover, .submit:hover{
+  box-shadow: 0 0 4vh 0 rgba(0, 0, 0, 1) inset, 0 0 10px 4px black;
+}
+.gold::selection{
+  background-color: black;
+  color: Gold;
+}
+.black::selection{
+  background-color: gold;
+  color: Black;
+}
+.left-title, .right-title{
+  display: flex;
+  opacity: 0.7;
+  padding: 2vh;
+  width: 100%;
+  margin: 0;
+  height: 12vh
+}
+.right-title{
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+.left-title{
+  text-align: right;
+  background-color: white;
+  color: black;
+}
+.title1{
+  width: 100%;
+}
+.title2{
+  text-align: center;
+}
+.title1-dark{
+  width: 100%;
+  color: white;
+}
+.title2-dark{
+  text-align: center;
+  color: white;
+}
+.majestic-light{
+  font-family: Akaya Telivigala;
+}
+h1{
+  width: 100%;
+}
+h4{
+  padding: 3%;
+  font-size: 3.7vh;
+}
+.text-container, .ad, .light-recruiting{
+  margin: 3%;
+  padding: 0;
+  padding-bottom: 1%;
+  background-color: rgba(220, 220, 220, 0.2);
+  border: 0.5px solid grey;
+  border-radius: 2px;
+}
+.text-light, .text-dark{
+  margin: 2%;
+  font-size: 3vh;
+  font-family: Akaya Telivigala;
+}
+.text-and-photo{
+  display: flex;
+}
+.light-photo-text{
+  padding: 1% 1% 1% 2%;
+  width: 50%;
+  font-size: 2.53vh;
+  font-family: Akaya Telivigala;
+}
+.img, .img-dark{
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+}
+.img{
+  padding-left: 1.5%;
+}
+.img-dark{
+  padding-right: 1.5%;
+}
+.modal-input{
+  display: flex;
+  align-items: flex-end;
+  margin-left: 2vw;
+}
+.modal-body{
+  display: flex;
+}
+#galacticId, #accept{
+  height: 8vh;
+}

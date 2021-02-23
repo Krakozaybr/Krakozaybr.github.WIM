@@ -5,7 +5,7 @@ function billSolve(){
   let percents = +$('#percents').val()
   let start = +$('#start').val()
   let years = +$('#years').val()
-  if (isNaN(percents) || isNaN(start) || isNaN(years) || start < 0 || years < 0 || percents < 0 || percents > 10000000 || start  > 10000000 || years  > 10000000){
+  if (isNaN(percents) || isNaN(start) || isNaN(years) || start < 0 || years < 0 || percents < 0){
     answer('Некорректные вводные')
   } else {
     let i;

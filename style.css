@@ -1,0 +1,33 @@
+body, html{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: radial-gradient(White, DarkGreen);
+}
+a{
+  width: 20vw;
+  height: 15vh;
+  color: black;
+  font-size: 3.3vh;
+  text-align: center;
+  background-color: rgba(0, 255, 127, 0.2);
+  margin: 2%;
+  padding: 2%;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+  background-color: rgba(0, 100, 0, 0.2);
+  box-shadow: 0 0 4vh 0 rgba(0, 0, 0, 1) inset, 0 0 10px 4px black;
+}
