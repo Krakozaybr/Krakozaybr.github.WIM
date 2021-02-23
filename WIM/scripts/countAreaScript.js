@@ -104,35 +104,35 @@ function select(n){
     case 'triangle':
     put(1, 0, 1)
     currentMode = 'triangle'
-    document.getElementById('shapeImg').src = '../images/triangle.png'
+    document.getElementById('shapeImg').src = '../WIM/images/triangle.png'
     break; case 'square':
     put(1)
     currentMode = 'square'
-    document.getElementById('shapeImg').src = '../images/square.png'
+    document.getElementById('shapeImg').src = '../WIM/images/square.png'
     break; case 'rectangle':
     put(1, 1)
     currentMode = 'rectangle'
-    document.getElementById('shapeImg').src = '../images/rectangle.png'
+    document.getElementById('shapeImg').src = '../WIM/images/rectangle.png'
     break; case 'parallelogram':
     put(1, 0, 1)
     currentMode = 'parallelogram'
-    document.getElementById('shapeImg').src = '../images/parallelogram.png'
+    document.getElementById('shapeImg').src = '../WIM/images/parallelogram.png'
     break; case 'rhombus':
     put(1, 0, 1)
     currentMode = 'rhombus'
-    document.getElementById('shapeImg').src = '../images/rhombus.png'
+    document.getElementById('shapeImg').src = '../WIM/images/rhombus.png'
     break; case 'trapeze':
     put(1, 1, 1)
     currentMode = 'trapeze'
-    document.getElementById('shapeImg').src = '../images/trapeze.png'
+    document.getElementById('shapeImg').src = '../WIM/images/trapeze.png'
     break; case 'deltoid':
     put(1, 1, 0, 1)
     currentMode = 'deltoid'
-    document.getElementById('shapeImg').src = '../images/deltoid.png'
+    document.getElementById('shapeImg').src = '../WIM/images/deltoid.png'
     break; case 'circle':
     put(0, 0, 0, 1)
     currentMode = 'circle'
-    document.getElementById('shapeImg').src = '../images/circle.png'
+    document.getElementById('shapeImg').src = '../WIM/images/circle.png'
   }
 }
 let aInput = "<div class = 'col-lg'><input id = 'a' placeholder = 'a'></div>";
